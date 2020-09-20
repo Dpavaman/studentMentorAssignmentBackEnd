@@ -105,6 +105,6 @@ app.put('/mentor/addStudent', async function(req,res){
     }
 })
 
-app.listen(3030, ()=>{
+app.listen(process.env.PORT || 3030, ()=>{
     console.log("Server is Live !");
 })
