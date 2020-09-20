@@ -7,7 +7,7 @@ const url = "mongodb+srv://Pavaman:Pavaman@20@studentmentorassignment.z8quo.mong
 const cors = require('cors');
 
 app.use(cors({
-    origin : "*"  //https://naughty-wiles-c647b3.netlify.app/
+    origin : "https://naughty-wiles-c647b3.netlify.app/?"  //
 }))
 
 app.use(bodyParser.json());
