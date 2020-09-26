@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongodb = require('mongodb');
 const mongoClient = mongodb.MongoClient;
-const url = "mongodb+srv://Pavaman:Pavaman@20@studentmentorassignment.z8quo.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://Pavaman:Pavaman20@studentmentorassignment.z8quo.mongodb.net/?retryWrites=true&w=majority";
 const cors = require('cors');
 
 app.use(cors({
